@@ -43,6 +43,6 @@ auth:
 
 ```
 
-`helm install jupyterhub/jupyterhub --version=v0.7.0 --name=juliabox --namespace=juliabox -f config.yaml --timeout=10000`
+`helm install jupyterhub/jupyterhub --version=v0.5 --name=juliabox --namespace=juliabox -f config.yaml --timeout=10000`
 
 `watch kubectl --namespace=juliabox get po`
